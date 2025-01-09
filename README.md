@@ -8,7 +8,7 @@ Mas especifico usando el siguiente comando: `npx create-electron-app@latest my-a
 
 ## Desarrollo:
 
-`npm start`: Levanta la aplicacion (ejecuta una nueva ventana, se actualiza en tiempo real al guardar cambios al codigo
+`npm start`: Levanta la aplicacion (ejecuta una nueva ventana, se actualiza en tiempo real al guardar cambios al codigo)
 
 ## Compilar "distribuibles" (archivo.exe y datos necesarios de la aplicacion):
 
