@@ -23,3 +23,31 @@ Investigar configuraciones aca: https://www.electronforge.io/config/makers
 Investigar configuraciones de publicacion aca: https://www.electronforge.io/config/publishers/github
 
 `npm run publish`: Publica los ejecutables segun la configuracion dada
+
+### Ejemplo de configuracion
+
+En el archivo `forge.config.js` Y usando la dependencia `@electron-forge/publisher-github` (Para publicar en github):
+
+```
+module.exports = {
+  // ...
+  publishers: [
+    {
+      name: '@electron-forge/publisher-github',
+      config: {
+        repository: {
+          owner: 'me',
+          name: 'awesome-thing'
+        },
+        prerelease: true
+      }
+    }
+  ]
+};
+```
+
+### Extras
+
+Documentacion sobre las configuraciones de `electron-forge` (archivo `forge.config.js`) aca:
+
+https://www.electronforge.io/config/configuration
